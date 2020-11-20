@@ -321,6 +321,19 @@ a {
 .details_blog .btns .link_more:hover {
     opacity: 1;
 }
+
+/*Start detail page*/
+.accessories .more_accessories {
+    padding: .5rem 1rem;
+    color: #fff;
+    background: var(--red-color);
+    border-radius: .3rem;
+    box-shadow: var(--main-shadow);
+}
+
+.accessories .more_accessories:hover {
+    box-shadow: initial;
+}
 /*start media query*/
 @media screen and (max-width:767px){
     .deal-banner9 {
