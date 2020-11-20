@@ -518,3 +518,7 @@ devicesHome.forEach(device => {
 		e.preventDefault();
 	});
 });
+
+// Change accessories 
+const accessoriesBtn = document.querySelectorAll('.accessories .more_accessories');
+const accessoriesData = document.querySelectorAll('.sidebar-right .tab-content .tab-pane');
