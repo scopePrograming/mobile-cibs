@@ -522,3 +522,16 @@ devicesHome.forEach(device => {
 // Change accessories 
 const accessoriesBtn = document.querySelectorAll('.accessories .more_accessories');
 const accessoriesData = document.querySelectorAll('.sidebar-right .tab-content .tab-pane');
+accessoriesBtn.forEach(btnAcce => {
+	btnAcce.addEventListener('click', () => {
+		accessoriesData.forEach(dataAcce => {
+			dataAcce.classList.remove('show', 'active');
+			if(btnAcce.id === dataAcce.getAttribute('aria-labelledby')) {
+				dataAcce.classList.add('show', 'active');
+				return false;
+			} else {
+				return true;
+			}
+		});
+	});
+});
