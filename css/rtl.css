@@ -2298,7 +2298,11 @@ th {
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
 }
-.item-pro-seller .product-info,
+.item-pro-seller .product-info {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .widget-recent-post .widget-content > ul > li > .post-info {
   padding-left: 0;
   padding-right: 20px;

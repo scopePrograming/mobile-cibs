@@ -429,7 +429,7 @@ jQuery(window).on('load',function(){
 			});
 			$(this).find('.owl-controls').css('left',data.control+'px');
 		});
-	}	
+	} 
 	//BxSlider
 	if($('.bxslider-banner').length>0){
 		$('.bxslider-banner').each(function(){
@@ -535,3 +535,19 @@ accessoriesBtn.forEach(btnAcce => {
 		});
 	});
 });
+
+/*// owl carousel test (next & prev)
+jQuery(window).on('load',function(){
+	$('.owl-next').each(function(){
+		$(this).on('click',function(event){
+			event.preventDefault();
+			console.log('next');
+		});
+	});
+	$('.owl-prev').each(function(){
+		$(this).on('click',function(event){
+			event.preventDefault();
+			console.log('prev');
+		});
+	});
+});*/
