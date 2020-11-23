@@ -337,13 +337,14 @@ a {
     box-shadow: initial;
 }
 
-.attr-detail .list_color_filter li {
+.attr-detail .list_filter_filter li {
     box-shadow: var(--main-shadow);
     border-radius: .3rem;
     transition: all .3s;
+    margin: .5rem .3rem;
 }
 
-.attr-detail .list_color_filter li .btn_color {
+.attr-detail .list_filter_filter li .btn_filter {
     display: inline-block;
     padding: .4rem 1rem;
     line-height: initial;
@@ -354,17 +355,17 @@ a {
     transition: all .3s;
 }
 
-.attr-detail .list_color_filter li.active,
-.attr-detail .list_color_filter li:hover {
+.attr-detail .list_filter_filter li.active,
+.attr-detail .list_filter_filter li:hover {
     box-shadow: initial;
 }
 
-.attr-detail .list_color_filter li.active .btn_color,
-.attr-detail .list_color_filter li:hover .btn_color {
+.attr-detail .list_filter_filter li.active .btn_filter,
+.attr-detail .list_filter_filter li:hover .btn_filter {
     color: #fff;
 }
 
-.attr-detail .list_color_filter li.active .btn_color::after {
+.attr-detail .list_filter_filter li.active .btn_filter::after {
     display: none;
 }
 

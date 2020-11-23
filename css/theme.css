@@ -2765,7 +2765,7 @@ a.shop-button,
   margin: 0 -5px;
 }
 .product-extra-link2 .addcart-link {
-  background: #333 none repeat scroll 0 0;
+  background: var(--red-color) none repeat scroll 0 0;
   border: medium none;
   color: #fff;
   padding: 0 20px;
@@ -6009,7 +6009,7 @@ a.protect-icon:hover {
   color: #f26551;
 }
 .color-red .product-extra-link2 .addcart-link:hover {
-  background-color: #f26551;
+  background-color: var(--main-color);
 }
 .color-red .product-extra-link2 .wishlist-link:hover,
 .color-red .product-extra-link2 .compare-link:hover {
