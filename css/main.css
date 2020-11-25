@@ -23,7 +23,7 @@ a {
 
 .nav_top .nav_icons a {
     position: relative;
-    font-size: 2.4rem;
+    font-size: 1.5rem;
     color: var(--gray-color);
     margin: 0 .5rem;
     padding: 0.5rem 0 0.5rem 1rem;
@@ -209,10 +209,6 @@ a {
     object-fit: cover;
 }
 
-
-
-
-
 /*Zoom Product*/
 .product-thumb:hover .zoom-thumb img {
     transform: scale(1.15);
@@ -273,7 +269,7 @@ a {
 
 /*Start blog page*/
 .img_blog{
-    height: 25rem;
+    height: 20rem;
     box-shadow: var(--main-shadow);
     border-radius: 0.5rem;
 }
@@ -302,7 +298,7 @@ a {
 
 .details_blog .btns .link_more {
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #fff;
     background: #e01b22;
     padding: .9rem 1rem;

@@ -520,8 +520,8 @@ devicesHome.forEach(device => {
 });
 
 // Change accessories 
-const accessoriesBtn = document.querySelectorAll('.accessories .more_accessories');
-const accessoriesData = document.querySelectorAll('.sidebar-right .tab-content .tab-pane');
+const accessoriesBtn = document.querySelectorAll('.btnAcce');
+const accessoriesData = document.querySelectorAll('.dataAccessories .tab-content .tab-pane');
 accessoriesBtn.forEach(btnAcce => {
 	btnAcce.addEventListener('click', () => {
 		accessoriesData.forEach(dataAcce => {
