@@ -5,10 +5,10 @@
 -----------------------------------*/
 /*Color*/
 /*Attribute*/
-@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
 body {
   color: #333333;
-  font-family: 'Droid Arabic Kufi', serif;
+   font-family: 'Cairo', sans-serif;
   font-size: 14px;
   line-height: inherit;
   margin: 0;
@@ -595,7 +595,7 @@ li.menu-item-has-children:hover > .sub-menu {
 }
 .account-login {
   margin: 0 -15px;
-  font-family: 'Droid Arabic Kufi', serif;
+   font-family: 'Cairo', sans-serif;
 
 }
 .account-login a:last-child {
@@ -6910,7 +6910,7 @@ a.protect-icon:hover {
 .order-return .list-none strong {
   color: #555;
   text-transform: uppercase;
-    font-family: 'Droid Arabic Kufi', serif;
+     font-family: 'Cairo', sans-serif;
 
 }
 .main-header3 {
@@ -9321,7 +9321,7 @@ a.protect-icon:hover {
   color: #4b566b;
   padding: 15px 18px;
   font-weight: 700;
-  font-family: 'Droid Arabic Kufi', serif;
+   font-family: 'Cairo', sans-serif;
 
 }
 .main-nav.main-nav9 > ul > li.current-menu-item > a,
