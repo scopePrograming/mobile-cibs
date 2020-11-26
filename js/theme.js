@@ -519,6 +519,16 @@ devicesHome.forEach(device => {
 	});
 });
 
+// Change title products
+const titlePro = document.querySelector('.titlePro');
+const linkTitle = document.querySelectorAll('.linkTitle span');
+
+linkTitle.forEach(title => {
+	title.addEventListener('click', () => {
+		titlePro.textContent = title.textContent;
+	});
+});
+
 // Change accessories 
 const accessoriesBtn = document.querySelectorAll('.btnAcce');
 const accessoriesData = document.querySelectorAll('.dataAccessories .tab-content .tab-pane');

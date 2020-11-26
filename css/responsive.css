@@ -2171,9 +2171,6 @@
     display: block;
     width: 100%;
   }
-  .item-product9.item-trend5 .hoz-item {
-    padding: 20px;
-  }
   .item-product9.item-trend5 .hoz-item .product-info {
     padding-left: 0;
     padding-top: 15px;
@@ -2647,9 +2644,6 @@
   }
   .item-trend5 .hoz-item .product-thumb {
     width: 100px;
-  }
-  .item-trend5 .hoz-item {
-    padding: 15px;
   }
   .item-trend5 .ver-item {
     padding: 20px 30px;

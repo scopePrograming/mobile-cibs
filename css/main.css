@@ -154,20 +154,22 @@ a {
     position: absolute;
     top: -16px;
 }
+.item-trend5 .hoz-item{
+    position: relative;
+}
 .item-trend5 .hoz-item .product-info {
     padding: 0.5rem 0;
 }
 .item-trend5 .hoz-item .product-price {
     display: inline-block;
-    position: relative;
 }
 .item-trend5 .hoz-item .product-price ins {
     display: block;
 }
 .item-trend5 .hoz-item .product-price .saleoff5 {
-    left: -4rem;
+    left: 0.5rem;
     position: absolute;
-    top: 20px;
+    top: 0.5rem;
 }
 .item-trend5 .product-price > span.saleoff5,
 .item-pro-seller .saleoff {
@@ -334,10 +336,11 @@ a {
 }
 
 .attr-detail .list_filter_filter li {
-    box-shadow: var(--main-shadow);
-    border-radius: .3rem;
+    border: 1px solid #cdcdcd;
+    border-radius: .2rem;
     transition: all .3s;
     margin: .5rem .3rem;
+    background: linear-gradient(to bottom,#fff,#f2f2f2);
 }
 
 .attr-detail .list_filter_filter li .btn_filter {
@@ -345,7 +348,7 @@ a {
     padding: .4rem 1rem;
     line-height: initial;
     height: initial;
-    color: var(--main-color);
+    color: #111;
     border: none;
     border-radius: .3rem;
     transition: all .3s;
@@ -353,16 +356,16 @@ a {
 
 .attr-detail .list_filter_filter li.active,
 .attr-detail .list_filter_filter li:hover {
-    box-shadow: initial;
-}
-
-.attr-detail .list_filter_filter li.active .btn_filter,
-.attr-detail .list_filter_filter li:hover .btn_filter {
-    color: #fff;
+    border: 2px solid var(--red-color);
 }
 
 .attr-detail .list_filter_filter li.active .btn_filter::after {
     display: none;
+}
+
+.some_details p{
+    line-height: 1.6;
+    color: #333;
 }
 
 /*start media query*/
