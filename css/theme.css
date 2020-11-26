@@ -3818,10 +3818,10 @@ a.shop-button,
   right: 12px;
 }
 .detail-qty > a.qty-up {
-  top: .4rem;
+  top: .3rem;
 }
 .detail-qty > a.qty-down {
-  bottom: .3rem;
+  bottom: .1rem;
 }
 .attr-detail .select-box select {
   height: 40px;
