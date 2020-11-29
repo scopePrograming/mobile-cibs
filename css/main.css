@@ -29,7 +29,7 @@ a {
 .nav_top .nav_icons a {
     position: relative;
     font-size: 1.5rem;
-    color: var(--gray-color);
+    color: #e01b22;
     margin: 0 .5rem;
     padding: 0.5rem 0 0.5rem 1rem;
     border-left: 1px solid rgba(0, 0, 0, 0.2);
