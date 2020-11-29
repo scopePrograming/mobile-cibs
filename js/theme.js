@@ -561,3 +561,6 @@ jQuery(window).on('load',function(){
 		});
 	});
 });*/
+
+// Animation 
+AOS.init();
